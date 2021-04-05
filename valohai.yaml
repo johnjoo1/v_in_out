@@ -6,3 +6,6 @@
     name: read-write
     image: amancevice/pandas:1.2.3
     command: python hello.py
+    inputs:
+      - name: housing-csv
+        default: datum://0178a09a-05f3-df7b-7cc8-83f071d8cbd5
