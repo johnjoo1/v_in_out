@@ -4,7 +4,7 @@
     command: echo hello
 - step:
     name: read-write
-    image: tensorflow/tensorflow:2.0.3-gpu-py3
+    image: amancevice/pandas:1.2.3
     command: python hello.py
     inputs:
       - name: housing-csv
