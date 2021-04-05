@@ -2,3 +2,7 @@
     name: greet-me
     image: busybox
     command: echo hello
+- step:
+    name: read-write
+    image: amancevice/pandas:1.2.3
+    command: python hello.py
